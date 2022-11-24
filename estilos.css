@@ -39,14 +39,14 @@ header{
         text-align: center;
         line-height: normal;
     }
-.mierda{
+.titu{
     font-size: 35px;
 }
 
 .prin{
     background-color: white;
     height: 35px;
-    width: 1365px;
+    width: 100%;
     margin: 0%;
     padding: 0%;
     text-align: center;
@@ -162,4 +162,21 @@ header{
     width: 100%;
     height: 70px;
     margin-top: 20px;
+}
+.imagen{
+    width: 100%;
+}
+@media screen and (max-width:800px){
+    .imagen>img{
+        width: 18%;
+    }
+    .titu{
+        font-size: 20px;
+    }
+    hr{
+        display: none;
+    }
+    .tit{
+        font-size: 30px;
+    }
 }
